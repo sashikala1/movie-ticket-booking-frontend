@@ -32,7 +32,7 @@ npm install
 Create a `.env` file with:
 
 ```env
-VITE_API_BASE_URL=http://localhost:8080/api
+VITE_API_BASE_URL= add your frontend api base url in here
 ```
 
 ## Run
@@ -41,15 +41,6 @@ VITE_API_BASE_URL=http://localhost:8080/api
 npm run dev
 ```
 
-Frontend: http://localhost:5173
-Backend: http://localhost:8080
-API: http://localhost:8080/api
-
-## Routes
-
-- Public: `/`, `/movies`, `/movies/:id`, `/theatres`, `/shows`, `/shows/:id`, `/signin`, `/signup`
-- Customer: `/bookings/new/:showId`, `/bookings`, `/bookings/:id`, `/payments/:bookingId`, `/payments/:id/status`
-- Admin: `/admin`, `/admin/users`, `/admin/movies`, `/admin/theatres`, `/admin/shows`, `/admin/bookings`, `/admin/payments`
 
 ## Authentication
 
